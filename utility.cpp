@@ -10,6 +10,7 @@
 // then be sure to  #include "utility.h" in the file where you use
 // these functions
 #include<iostream>
+#include<cmath>
 using namespace std;
 bool isOdd(int x) { 
 	if (x % 2 != 0) return true;
@@ -22,7 +23,7 @@ bool isEven(int x) {
 	}
 }
 bool isPrime(int x){
-if (x <= 1) {
+if (x == 1 || x==0) {
 	return false; }
 if (x == 2) { 
 	return true; }

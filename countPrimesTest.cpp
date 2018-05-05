@@ -35,7 +35,7 @@ int main() {
 	       "countPrimes(meaning,1)" ); 
 
   int mix[10]={-10,-3,0,3,4,5,9,10,11,29};
-  assertEquals(4,
+  assertEquals(5,
 	       countPrimes(mix,10), 
 	       "countPrimes(mix,10)" );
 
