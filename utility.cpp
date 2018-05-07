@@ -23,7 +23,7 @@ bool isEven(int x) {
 	}
 }
 bool isPrime(int x){
-if (x == 1 || x==0) {
+if (x <= 1) {
 	return false; }
 if (x == 2) { 
 	return true; }
